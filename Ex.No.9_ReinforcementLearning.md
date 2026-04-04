@@ -1,8 +1,12 @@
 # Ex.No: 9  Implementation of RollarBall Design using Reinforcement Learning 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+
+### DATE:   20.03.2026  
+
+### REGISTER NUMBER : 212223230240
+
 ### AIM: 
 To write a program to design RollerBall and train the Rollerbal by Reinforcement learning  in Unity 
+
 ### Installation Required 
 ```
 1.Check sytem have python 3.10.0  ( if any higher version then uninstall and install python3.10.0)
@@ -49,7 +53,7 @@ tensorboard --logdir results
 16 Get the results by running the localhost on specific port ( shown in tensorboard)
 ```  
 ### Program:
-```
+~~~
 1. File : RollerAgent.cs 
 
 using UnityEngine;
@@ -157,7 +161,17 @@ behaviors:
     max_steps: 500000
     time_horizon: 64
     summary_freq: 10000
+~~~
+
 ### Output:
+
+### Before Training
+
+<img width="519" height="320" alt="image" src="https://github.com/user-attachments/assets/9f4f112c-77b4-4a5a-affd-31716657875f" />
+
+## After Training
+
+<img width="421" height="292" alt="image" src="https://github.com/user-attachments/assets/209a2e4f-e378-4b3a-8e80-07449dbfb9ad" />
 
 
 
